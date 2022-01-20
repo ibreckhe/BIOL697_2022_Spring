@@ -1,0 +1,6 @@
+Good Sources of Remote Sensing Data:
+
+Web-based Catalogs:
+Sentinel Hub EO Browser: https://apps.sentinel-hub.com/eo-browser/ 
+USGS Earth Explorer: https://earthexplorer.usgs.gov/
+Planet Explorer: https://www.planet.com/explorer/
