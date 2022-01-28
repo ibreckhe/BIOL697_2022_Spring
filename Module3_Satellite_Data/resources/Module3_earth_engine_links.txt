@@ -1,0 +1,8 @@
+Resources from Module 3:
+
+OpenET Data Explorer: https://explore.etdata.org/
+Climate Engine: https://app.climateengine.com/climateEngine
+Google Earth Engine Data Catalog: https://developers.google.com/earth-engine/datasets/catalog
+Earth Engine Community Datasets: https://samapriya.github.io/awesome-gee-community-datasets/
+rgee R package: https://r-spatial.github.io/rgee/
+Library of rgee examples: https://csaybar.github.io/rgee-examples/
