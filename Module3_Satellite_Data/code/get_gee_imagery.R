@@ -43,11 +43,6 @@ bands <- c("B2", "B3", "B4", "B5", "B6", "B7", "B10", "B11")
 sf_points <- st_read("../BIOL697_2022_Spring/Module1_Getting_Started/data/example_points.gpkg")
 gee_points <- sf_as_ee(sf_points)
 
-# Overlay the points on the imagery to get training.
-training <- image$select(bands)$sampleRegions(
-  collection = gee_points,
-  scale = 30
-)
 
 # Define visualization parameters in an object literal.
 vizParams <- list(
@@ -63,4 +58,5 @@ Map$addLayer(image, vizParams, "Image") +
 
 ee_print(training)
 
-##Converts sampled data back to a local object.
+# Extract pixel values at point locations.
+gee_points_extract <- ee_extract(x = image, y = gee_points, sf = FALSE,scale=30)
