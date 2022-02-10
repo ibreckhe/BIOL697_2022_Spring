@@ -1,0 +1,29 @@
+{
+"bounds": [327837.840000, 4313594.400000, 2883.790000, 328087.940000, 4313844.500000, 3133.890000],
+"boundsConforming": [327837.840000, 4313594.400000, 2883.790000, 328087.940000, 4313844.500000, 2963.490000],
+"dataType": "laszip",
+"hierarchyType": "json",
+"points": 902188,
+"span": 128,
+"version": "1.0.0",
+"schema": [
+	{"name": "ClassFlags", "type": "unsigned", "size": 1, "count": 902188, "maximum": 8, "minimum": 0, "mean": 0.828581, "stddev": 2.43764, "variance": 5.94211},
+	{"name": "ScanChannel", "type": "unsigned", "size": 1, "count": 902188, "maximum": 1, "minimum": 0, "mean": 0.503606, "stddev": 0.499987, "variance": 0.249987},
+	{"name": "GpsTime", "type": "float", "size": 8, "count": 902188, "maximum": 2.51813e+08, "minimum": 2.50522e+08, "mean": 2.51201e+08, "stddev": 644396, "variance": 4.15246e+11},
+	{"name": "PointSourceId", "type": "unsigned", "size": 2, "count": 902188, "maximum": 432, "minimum": 200, "mean": 321.908, "stddev": 115.463, "variance": 13331.7},
+	{"name": "UserData", "type": "unsigned", "size": 1, "count": 902188, "maximum": 1, "minimum": 0, "mean": 0.503606, "stddev": 0.499987, "variance": 0.249987},
+	{"name": "ScanAngleRank", "type": "float", "size": 4, "count": 902188, "maximum": 1.422, "minimum": -29.634, "mean": -14.98, "stddev": 10.1735, "variance": 103.501},
+	{"name": "ReturnNumber", "type": "unsigned", "size": 1, "count": 902188, "maximum": 8, "minimum": 1, "mean": 1.35815, "stddev": 0.731925, "variance": 0.535714},
+	{"name": "EdgeOfFlightLine", "type": "unsigned", "size": 1, "count": 902188, "maximum": 1, "minimum": 0, "mean": 0.0010275, "stddev": 0.0320382, "variance": 0.00102645},
+	{"name": "NumberOfReturns", "type": "unsigned", "size": 1, "count": 902188, "maximum": 8, "minimum": 1, "mean": 1.715, "stddev": 1.05811, "variance": 1.11961},
+	{"name": "Z", "type": "float", "scale": 0.01, "offset": 3008.84, "size": 8, "count": 902188, "maximum": 2963.49, "minimum": 2883.79, "mean": 2923.37, "stddev": 12.0445, "variance": 145.07},
+	{"name": "Classification", "type": "unsigned", "size": 1, "counts": [ {"value": 7, "count": 2026}, {"value": 2, "count": 176394}, {"value": 18, "count": 529}, {"value": 1, "count": 723239}], "count": 902188, "maximum": 18, "minimum": 1, "mean": 1.21896, "stddev": 0.630773, "variance": 0.397874},
+	{"name": "ScanDirectionFlag", "type": "unsigned", "size": 1, "count": 902188, "maximum": 1, "minimum": 0, "mean": 0.503606, "stddev": 0.499987, "variance": 0.249987},
+	{"name": "Intensity", "type": "unsigned", "size": 2, "count": 902188, "maximum": 65535, "minimum": 6702, "mean": 43711.5, "stddev": 13126, "variance": 1.72293e+08},
+	{"name": "Y", "type": "float", "scale": 0.01, "offset": 4.31372e+06, "size": 8, "count": 902188, "maximum": 4.31384e+06, "minimum": 4.31359e+06, "mean": 4.31371e+06, "stddev": 70.1106, "variance": 4915.49},
+	{"name": "X", "type": "float", "scale": 0.01, "offset": 327963, "size": 8, "count": 902188, "maximum": 328088, "minimum": 327838, "mean": 327973, "stddev": 67.9461, "variance": 4616.67}
+],
+"srs": {
+"wkt": "PROJCS[\"UTM Zone 13, Northern Hemisphere\",GEOGCS[\"WGS 84\",DATUM[\"WGS_1984\",SPHEROID[\"WGS 84\",6378137,298.257223563,AUTHORITY[\"EPSG\",\"7030\"]],AUTHORITY[\"EPSG\",\"6326\"]],PRIMEM[\"Greenwich\",0,AUTHORITY[\"EPSG\",\"8901\"]],UNIT[\"degree\",0.0174532925199433,AUTHORITY[\"EPSG\",\"9122\"]],AUTHORITY[\"EPSG\",\"4326\"]],PROJECTION[\"Transverse_Mercator\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",-105],PARAMETER[\"scale_factor\",0.9996],PARAMETER[\"false_easting\",500000],PARAMETER[\"false_northing\",0],UNIT[\"Meter\",1]]"
+}
+}
