@@ -1,0 +1,19 @@
+Useful links for finding point cloud data:
+
+RMBL Data catalog
+https://www.rmbl.org/scientists/resources/data-catalog/?tag-id=18
+
+RMBL Vegetation Structure Visualization
+https://www.rmbl.org/scientists/resources/data-catalog/data-catalog-entry/?catalog-id=60
+
+Colorado Hazard Mapping Program
+https://coloradohazardmapping.com/lidar
+
+USGS 3D Elevation Program
+https://www.usgs.gov/3d-elevation-program
+
+USGS LiDAR Quality Standards:
+https://www.usgs.gov/3d-elevation-program
+
+USGS Amazon S3 Public Repository
+https://registry.opendata.aws/usgs-lidar/
